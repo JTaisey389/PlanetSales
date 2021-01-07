@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(221, 209, 209);
+    background-color: rgba(31, 176, 249, 0.767);
 }
 
 header, footer {
@@ -35,3 +35,13 @@ li {
 .display_change > p{
     width: 400px;
 }
+img {
+    float:           
+right
+
+
+    width: 20px;
+    padding: 5px
+  }
+
+  
