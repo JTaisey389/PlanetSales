@@ -1,7 +1,3 @@
-let userName = prompt ('Please enter your name')
-
-document.write(userName)
-
 let correctAnswer = 2319;
 
 function guessingGame(){
@@ -21,5 +17,10 @@ function guessingGame(){
             alert('Sorry, too High');
             useranswer = prompt('Incorrect. Please try again')    
         }
+    }
+}
+function printNumbers(){
+    for(let i =0; i < 10; i++){
+        document.write('<img>' img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bubbles_in_space.jpg/800px-Bubbles_in_space.jpg" </img>')
     }
 }
