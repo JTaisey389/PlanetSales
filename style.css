@@ -1,0 +1,37 @@
+
+body {
+    background-color: rgb(221, 209, 209);
+}
+
+header, footer {
+    background-color: rgb(89, 102, 100);
+    text-align: center;
+    border: double black 3px;
+}
+
+section {
+    background-color:rgb(89, 102, 100);
+    text-align: center;
+    border: double black 3px
+}
+
+#hero {
+    height: 300px;
+    width: 800px;
+    border: solid black 2px;
+}
+
+li {
+    border: solid black 1px;
+    display: inline;
+    margin: 150px;
+}
+
+.display_change {
+    /* display: inline; */
+    width: 390px;
+}
+
+.display_change > p{
+    width: 400px;
+}
