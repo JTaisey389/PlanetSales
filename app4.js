@@ -5,7 +5,7 @@
 let correctAnswer = 2319;
 
 function guessingGame(){
-    let useranswer = prompt ('What is the Monsters Inc. Child Terminoligy');
+    let useranswer = prompt ('In Monsters Inc. What is the term the charecters use to delcare a child breach');
     while (useranswer < 1 || useranswer > 3000){
         useranswer = prompt ('Incorrect. Please try again');
     }
