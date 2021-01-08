@@ -1,5 +1,5 @@
 var today = new Date();
-var hourNow = today.getHours ();
+var hourNow = today.getHours();
 var greeting;
 
 if (hourNow > 18) {
@@ -11,3 +11,4 @@ if (hourNow > 18) {
 }   else {
     greeting = 'Welcome!';
 }
+document.write('<p>' + greeting + '</p>')

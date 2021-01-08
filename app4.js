@@ -1,3 +1,7 @@
+// let userName = prompt ('Please enter your name')
+
+// document.write(userName)
+
 let correctAnswer = 2319;
 
 function guessingGame(){
@@ -9,6 +13,7 @@ function guessingGame(){
     for(let i = 0; i < numberofguesses; i++){
         if (useranswer == correctAnswer){
             alert('Congratulations');
+            printNumbers()
             break;
         } else if (useranswer < correctAnswer){
             alert('Sorry, too low');
@@ -19,8 +24,11 @@ function guessingGame(){
         }
     }
 }
+guessingGame()
+
+
 function printNumbers(){
     for(let i =0; i < 10; i++){
-        document.write('<img>' img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bubbles_in_space.jpg/800px-Bubbles_in_space.jpg" </img>')
+        document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bubbles_in_space.jpg/800px-Bubbles_in_space.jpg">')
     }
 }
