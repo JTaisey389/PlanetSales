@@ -28,7 +28,7 @@ guessingGame()
 
 
 function printNumbers(){
-    for(let i =0; i < 10; i++){
+    for(let i =0; i < 3; i++){
         document.write('<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bubbles_in_space.jpg/800px-Bubbles_in_space.jpg">')
     }
 }
